@@ -525,79 +525,38 @@ section {
   border: 2px solid #1f5297;
 }
 
-.resume-button {
-  display: flex;
-  justify-content: center;
-}
-.resume-button-1 {
-  background-image: radial-gradient(
-    circle,
-    #469f9f,
-    #3fa299,
-    #3da590,
-    #42a786,
-    #4ca979,
-    #5ea975,
-    #6daa72,
-    #7aaa70,
-    #8aaa79,
-    #96a984,
-    #a0a990,
-    #a7aa9e
-  );
 
-  border-radius: 10px;
-  padding: 3px;
-}
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-#resume-full-button {
-  font-weight: 900;
-  font-size: 18px;
-  background-color: skyBlue;
 
-  background-image: radial-gradient(
-    circle,
-    #ff0000,
-    #e40038,
-    #ba0051,
-    #86005c,
-    #4f0058,
-    #3a0750,
-    #270a47,
-    #14083c,
-    #1d073b,
-    #24053a,
-    #2b0238,
-    #310036
-  );
-  background-position: 100% 0;
-  background-size: 200% 200%;
-  color: transparent;
-  -webkit-transition: 0.2s 0.3s;
-  -webkit-background-clip: text;
-}
-
-#resume-full-button:hover {
-  background-position: 0 0;
-  color: transparent;
-  transition: 0.4s 0;
-}
+  .resume-button-1 a{
+       text-decoration: none; 
+       
+  font: bold 1em/1.5 'Fjalla One', sans-serif;
+  /* text-transform: uppercase; */
+ 
+ 
+    background-color: rgb(17, 65, 83);
+    background-image: -webkit-linear-gradient(left, hotPink 0%, orange 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .1s .2s;
+    -webkit-background-clip: text;
+  }
+  .resume-button-1 a:hover {
+    background-position: 0 0;
+    color: transparent;
+    transition: .4s 0;
+  }
 
 /* .skills, .hero, .about, .portfolio, .services, .testimonials, .contact{
     display : none ;
 } */
 
-/* 
-#resume-full-button:hover {
-  color: blue;
-  font: bold 1em/1.5 'Fjalla One', sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  -webkit-transition: .2s;
+.facts, .portfolio, .testimonials{
+    display :none 
 }
-#resume-full-button:hover {
-  color: hotPink;
-} */
 
 /*--------------------------------------------------------------
 # Portfolio
